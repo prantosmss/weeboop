@@ -1,10 +1,10 @@
 {
-    "version": "3.1.0",
+    "version": "3.1.6",
     "description": "An Open Source app for Tracking Multi Service (AL, MAL, SIMKL)",
     "homepage": "https://github.com/RyanYuuki/AnymeX",
     "license": "MIT",
-    "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.0/AnymeX-Windows.zip",
-    "hash": "f19f43374ca51184db1ca7f9cf28e62361c9f192bf1f683d8698e7b4bd4bf6ad",
+    "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v3.1.6/AnymeX-Windows.zip",
+    "hash": "b36f684b69582480e190e2b15c4ecabba18e9044708dde31cd71df20fccce41a",
     "shortcuts": [
         [
             "anymex.exe",
