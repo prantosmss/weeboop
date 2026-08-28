@@ -1,0 +1,24 @@
+{
+    "version": "5.2.0",
+    "description": "Open-source x86/x64 video game and visual novel text hooker, highly extensible with translation extensions",
+    "homepage": "https://github.com/Artikash/Textractor",
+    "license": "GPL-3.0-only",
+    "notes": "Some antivirus engines flag the installer's temp file as a false-positive trojan. This is a known false positive caused by Textractor's core function: injecting into game processes to hook text output.",
+    "url": "https://github.com/Artikash/Textractor/releases/download/v5.2.0/Textractor-5.2.0-Setup.exe",
+    "hash": "fab1fa588c972c703b2e0f981df7d6ae9fb71683b099bf69547f8815f09f79b6",
+    "innosetup": true,
+    "bin": [
+        [ "x86\\Textractor.exe", "textractor-x86" ],
+        [ "x64\\Textractor.exe", "textractor-x64" ]
+    ],
+    "shortcuts": [
+        [ "x86\\Textractor.exe", "Textractor (x86)" ],
+        [ "x64\\Textractor.exe", "Textractor (x64)" ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Artikash/Textractor"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Artikash/Textractor/releases/download/v$version/Textractor-$version-Setup.exe"
+    }
+}
