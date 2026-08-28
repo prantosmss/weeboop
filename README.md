@@ -46,12 +46,14 @@ A [Scoop](https://scoop.sh) bucket focused on accumulating all the weeb and otak
 - [shelter-installer](https://github.com/uwu/shelter-installer)
 - [SteamTokenDumper](https://github.com/SteamDatabase/SteamTokenDumper)
 - [ShareX-HDR](https://github.com/GotoFinal/ShareX-HDR)
+- [LuaTools](https://lua.tools) [^6]
 
 [^1]: Previously known as Miru
 [^2]: Requires a Java Runtime Environment 21 or newer (JRE 21+) installed on the system to run.
 [^3]: Some antivirus engines flag the installer's temp file as a false-positive trojan. This is a known false positive caused by Textractor's core function: injecting into game processes to hook text output.
 [^4]: Runs from the system tray. Right-click the tray icon to open settings, reselect the scan region, or change the OCR provider.
 [^5]: Requires Python. After installing, navigate to the app directory (`scoop prefix TwitchChannelPointsMiner`) and run `pip install -r requirements.txt`, then configure `run.py` before running.
+[^6]: Requires the .NET 8 Desktop Runtime to run. Steam manifest/lua configuration manager with unlocker modes - may violate the Steam Subscriber Agreement.
 
 ## Usage
 
