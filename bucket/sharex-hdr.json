@@ -21,6 +21,6 @@
         "github": "https://github.com/GotoFinal/ShareX-HDR"
     },
     "autoupdate": {
-        "url": "https://github.com/GotoFinal/ShareX-HDR/releases/download/v$version-hdr/ShareX-$version-portable.zip"
+        "url": "https://github.com/GotoFinal/ShareX-HDR/releases/download/v$version-hdr/ShareX-$version-portable-x64.zip"
     }
 }

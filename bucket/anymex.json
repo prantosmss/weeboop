@@ -12,8 +12,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/RyanYuuki/AnymeX",
-        "regex": "/releases/tag/(?:v|V)?([\\d.]+[-\\w]*)"
+        "github": "https://github.com/RyanYuuki/AnymeX"
     },
     "autoupdate": {
         "url": "https://github.com/RyanYuuki/AnymeX/releases/download/v$version/AnymeX-Windows.zip"
