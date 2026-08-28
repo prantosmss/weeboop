@@ -1,13 +1,16 @@
 {
-    "version": "0.1.1.4",
+    "version": "0.1.1.5",
     "description": "Free Cantonese singing voice synthesizer with a piano-roll editor",
     "homepage": "https://github.com/aqtq314/Vogen.Client",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/aqtq314/Vogen.Client/releases/download/v0.1.1.4/Vogen.Client.v0.1.1.4.zip",
-    "hash": "9d665aa19e1bfb05096300be999eba4c3c8d91e92960353ae57f369959704cc2",
+    "url": "https://github.com/aqtq314/Vogen.Client/releases/download/v0.1.1.5/Vogen.Client.v0.1.1.5.zip",
+    "hash": "f8885cd493daeb94c12994fde6c6544532fd65bd51798cdab2775ac9e062e35e",
     "bin": "Vogen.Client.exe",
     "shortcuts": [
-        [ "Vogen.Client.exe", "Vogen" ]
+        [
+            "Vogen.Client.exe",
+            "Vogen"
+        ]
     ],
     "checkver": {
         "github": "https://github.com/aqtq314/Vogen.Client"
