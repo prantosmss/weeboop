@@ -7,6 +7,18 @@
     "url": "https://github.com/Artikash/Textractor/releases/download/v5.2.0/Textractor-5.2.0-Setup.exe",
     "hash": "fab1fa588c972c703b2e0f981df7d6ae9fb71683b099bf69547f8815f09f79b6",
     "innosetup": true,
+    "pre_install": [
+        "foreach ($arch in 'x86', 'x64') {",
+        "    if (!(Test-Path \"$dir\\$arch\\Textractor.exe\")) {",
+        "        $e = Get-ChildItem \"$dir\\$arch\" -Filter 'Textractor,*.exe' -ErrorAction SilentlyContinue | Sort-Object { [int]($_.BaseName -split ',' | Select-Object -Last 1) } -Descending | Select-Object -First 1",
+        "        if ($e) { Move-Item $e.FullName \"$dir\\$arch\\Textractor.exe\" -Force }",
+        "    }",
+        "    if (!(Test-Path \"$dir\\$arch\\TextractorCLI.exe\")) {",
+        "        $c = Get-ChildItem \"$dir\\$arch\" -Filter 'TextractorCLI,*.exe' -ErrorAction SilentlyContinue | Sort-Object { [int]($_.BaseName -split ',' | Select-Object -Last 1) } -Descending | Select-Object -First 1",
+        "        if ($c) { Move-Item $c.FullName \"$dir\\$arch\\TextractorCLI.exe\" -Force }",
+        "    }",
+        "}"
+    ],
     "bin": [
         [ "x86\\Textractor.exe", "textractor-x86" ],
         [ "x64\\Textractor.exe", "textractor-x64" ]
