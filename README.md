@@ -33,6 +33,7 @@ A [Scoop](https://scoop.sh) bucket focused on accumulating all the weeb and otak
 ### Voice & Music Synthesis
 
 - [Vogen](https://github.com/aqtq314/Vogen.Client)
+- [Audacity (legacy 2.4.1)](https://www.audacityteam.org)
 
 ### Downloaders & Automation
 
