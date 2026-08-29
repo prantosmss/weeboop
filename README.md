@@ -189,6 +189,7 @@ scoop install unyo
 | [N_m3u8DL-CLI ⭐](https://nilaoda.github.io/N_m3u8DL-CLI/) | Powerful m3u8/dash stream downloader (legacy) |
 | [n_m3u8dl-re ⭐](https://github.com/nilaoda/N_m3u8DL-RE) | Modern and powerful m3u8/mpd stream downloader (N_m3u8DL-RE) |
 | [nyaa ⭐](https://github.com/Beastwick18/nyaa) | TUI for browsing and downloading torrents from nyaa.si |
+| [PreCut](https://github.com/PrantoSMSS/PreCut) | Transcript generation, clip downloads, and proxy creation for content creators |
 | [qui](https://github.com/autobrr/qui) | Modern alternative webUI for qBittorrent with multi-instance support |
 | [streamcap](https://github.com/ihmily/StreamCap) | Downloads streams and playlists from 40+ sites (FFmpeg based) |
 | [twitch-hls-client](https://github.com/2bc4/twitch-hls-client) | CLI for watching and recording Twitch streams |

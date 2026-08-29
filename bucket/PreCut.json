@@ -1,0 +1,35 @@
+{
+    "version": "2.1.1",
+    "description": "A modern, dark-themed desktop utility for content creators to automate transcript generation, high-quality clip downloads, and proxy creation.",
+    "homepage": "https://github.com/PrantoSMSS/PreCut",
+    "license": "MIT",
+    "notes": "FFmpeg must be on PATH for high-quality downloads, format merging, and proxy creation. App data lives in the app folder (persisted by Scoop).",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/PrantoSMSS/PreCut/releases/download/v2.1.1/PreCut-2.1.1-portable.zip",
+            "hash": "AA2B2FFC85272E5CDB412DB74E4900DD4449D561E58C96EF940FE23CA6AFAFA2"
+        }
+    },
+    "extract_dir": "PreCut",
+    "bin": "PreCut.exe",
+    "shortcuts": [
+        [
+            "PreCut.exe",
+            "PreCut"
+        ]
+    ],
+    "persist": [
+        "data"
+    ],
+    "checkver": {
+        "url": "https://github.com/PrantoSMSS/PreCut/releases",
+        "regex": "releases/tag/v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/PrantoSMSS/PreCut/releases/download/v$version/PreCut-$version-portable.zip"
+            }
+        }
+    }
+}
