@@ -22,7 +22,9 @@ scoop install unyo
 
 > Click here to [browse the list on scoop instead](https://scoop.sh/#/apps?q="https://github.com/PrantoSMSS/weeboop"&o=false)
 
-### Anime & Manga â€” Streaming & Players
+### Anime & Manga
+
+#### Streaming & Players
 
 | App | Purpose |
 | --- | --- |
@@ -39,7 +41,7 @@ scoop install unyo
 | [Unyo](https://github.com/K3vinb5/unyo-app) | Ad-free desktop app for streaming anime and reading manga, synced with AniList |
 | [zenshin](https://github.com/hitarth-gg/zenshin) | Web & Electron based anime streaming app |
 
-### Anime & Manga â€” Tracking, Cataloging & Renaming
+#### Tracking, Cataloging & Renaming
 
 | App | Purpose |
 | --- | --- |
@@ -47,7 +49,9 @@ scoop install unyo
 | [bangumi-renamer](https://github.com/nuthx/bangumi-renamer) | Batch-renames anime files using AniList or Bangumi metadata |
 | [ShokoServer](https://github.com/ShokoAnime/ShokoServer) | Anime cataloging program that automates cataloging your anime collection |
 
-### Manga & Comics â€” Readers
+### Manga & Comics
+
+#### Readers
 
 | App | Purpose |
 | --- | --- |
@@ -58,7 +62,7 @@ scoop install unyo
 | [Suwayomi-VaadinUI](https://github.com/Suwayomi/Suwayomi-VaadinUI) | Desktop client for Suwayomi-Server built with Java and Vaadin [^2] |
 | [SyncYomi](https://github.com/syncyomi/syncyomi) | Seamlessly synchronizes TachiyomiSY/Mihon manga progress and library across devices |
 
-### Manga & Comics â€” Tools & Conversion
+#### Tools & Conversion
 
 | App | Purpose |
 | --- | --- |
@@ -84,7 +88,9 @@ scoop install unyo
 | [Audacity (legacy 2.4.1)](https://www.audacityteam.org) | Free, open-source, cross-platform audio software for multi-track recording and editing |
 | [Vogen](https://github.com/aqtq314/Vogen.Client) | Free Cantonese singing voice synthesizer with a piano-roll editor |
 
-### Downloaders â€” Manga & Novels
+### Downloaders & Automation
+
+#### Manga & Novels
 
 | App | Purpose |
 | --- | --- |
@@ -95,14 +101,14 @@ scoop install unyo
 | [picacomic-downloader](https://github.com/lanyeeee/picacomic-downloader) | Manga downloader for Picacomic |
 | [wnacg-downloader](https://github.com/lanyeeee/wnacg-downloader) | Manga downloader for Wnacg |
 
-### Downloaders â€” Fan Content & Media
+#### Fan Content & Media
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-live-record-downloader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) | Bilibili live recording and replay downloading software |
 | [kemono-downloader](https://github.com/Yuvi9587/Kemono-Downloader) | GUI downloader for Kemono, Coomer, Bunkr, Erome, and nhentai |
 
-### Downloaders â€” Torrent Automation
+#### Torrent Automation
 
 | App | Purpose |
 | --- | --- |
