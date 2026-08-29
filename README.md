@@ -22,9 +22,9 @@ scoop install unyo
 
 > Click here to [browse the list on scoop instead](https://scoop.sh/#/apps?q="https://github.com/PrantoSMSS/weeboop"&o=false)
 
-### [![Anime & Manga](https://img.shields.io/badge/Anime%20%26%20Manga-ff69b4)
+### ![Anime & Manga](https://img.shields.io/badge/Anime%20%26%20Manga-ff69b4)
 
-#### [![Streaming & Players](https://img.shields.io/badge/Streaming%20%26%20Players-ff69b4)
+#### ![Streaming & Players](https://img.shields.io/badge/Streaming%20%26%20Players-ff69b4)
 
 | App | Purpose |
 | --- | --- |
@@ -47,7 +47,7 @@ scoop install unyo
 | [Unyo](https://github.com/K3vinb5/unyo-app) | Ad-free desktop app for streaming anime and reading manga, synced with AniList |
 | [zenshin](https://hitarth-gg.github.io/zenshin-website/) | Web & Electron based anime streaming app |
 
-#### [![Tracking, Cataloging & Renaming](https://img.shields.io/badge/Tracking%2C%20Cataloging%20%26%20Renaming-ff69b4)
+#### ![Tracking, Cataloging & Renaming](https://img.shields.io/badge/Tracking%2C%20Cataloging%20%26%20Renaming-ff69b4)
 
 | App | Purpose |
 | --- | --- |
@@ -55,9 +55,9 @@ scoop install unyo
 | [bangumi-renamer](https://github.com/nuthx/bangumi-renamer) | Batch-renames anime files using AniList or Bangumi metadata |
 | [ShokoServer](https://shokoanime.com/) | Anime cataloging program that automates cataloging your anime collection |
 
-### [![Manga & Comics](https://img.shields.io/badge/Manga%20%26%20Comics-ff8c00)
+### ![Manga & Comics](https://img.shields.io/badge/Manga%20%26%20Comics-ff8c00)
 
-#### [![Readers](https://img.shields.io/badge/Readers-ff8c00)
+#### ![Readers](https://img.shields.io/badge/Readers-ff8c00)
 
 | App | Purpose |
 | --- | --- |
@@ -68,28 +68,28 @@ scoop install unyo
 | [Suwayomi-VaadinUI](https://github.com/Suwayomi/Suwayomi-VaadinUI) | Desktop client for Suwayomi-Server built with Java and Vaadin [^2] |
 | [SyncYomi](https://github.com/syncyomi/syncyomi) | Seamlessly synchronizes TachiyomiSY/Mihon manga progress and library across devices |
 
-#### [![Tools & Conversion](https://img.shields.io/badge/Tools%20%26%20Conversion-ff8c00)
+#### ![Tools & Conversion](https://img.shields.io/badge/Tools%20%26%20Conversion-ff8c00)
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-manga-watermark-remover](https://github.com/lanyeeee/bilibili-manga-watermark-remover) | Removes watermarks from Bilibili manga images |
 | [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) | GUI for upscaling manga with PyTorch models |
 
-### [![Visual Novel & Text Hooking](https://img.shields.io/badge/Visual%20Novel%20%26%20Text%20Hooking-9400d3)
+### ![Visual Novel & Text Hooking](https://img.shields.io/badge/Visual%20Novel%20%26%20Text%20Hooking-9400d3)
 
 | App | Purpose |
 | --- | --- |
 | [Textractor](https://github.com/Artikash/Textractor) | X86/x64 video game and visual novel text hooker, highly extensible with translation extensions [^3] |
 
-### [![Language & Dictionaries](https://img.shields.io/badge/Language%20%26%20Dictionaries-1e90ff)
+### ![Language & Dictionaries](https://img.shields.io/badge/Language%20%26%20Dictionaries-1e90ff)
 
 | App | Purpose |
 | --- | --- |
 | [meikipop](https://github.com/rtr46/meikipop) | Universal Japanese OCR popup dictionary for instant on-screen lookups [^4] |
 
-### [![Music](https://img.shields.io/badge/Music-32cd32)
+### ![Music](https://img.shields.io/badge/Music-32cd32)
 
-#### [![Players & Clients](https://img.shields.io/badge/Players%20%26%20Clients-32cd32)
+#### ![Players & Clients](https://img.shields.io/badge/Players%20%26%20Clients-32cd32)
 
 | App | Purpose |
 | --- | --- |
@@ -107,7 +107,7 @@ scoop install unyo
 | [waves](https://github.com/llehouerou/waves) | Terminal music player with Soulseek and Spotify integration |
 | [youtui](https://github.com/nick42d/youtui) | Simple TUI for YouTube Music |
 
-#### [![Trackers & Synthesizers](https://img.shields.io/badge/Trackers%20%26%20Synthesizers-32cd32)
+#### ![Trackers & Synthesizers](https://img.shields.io/badge/Trackers%20%26%20Synthesizers-32cd32)
 
 | App | Purpose |
 | --- | --- |
@@ -122,7 +122,7 @@ scoop install unyo
 | [Vogen](https://github.com/aqtq314/Vogen.Client) | Free Cantonese singing voice synthesizer with a piano-roll editor |
 | [zxtune](https://zxtune.bitbucket.io/) | Cross-platform chiptune player for many retro formats |
 
-#### [![Audio Tools & Tagging](https://img.shields.io/badge/Audio%20Tools%20%26%20Tagging-32cd32)
+#### ![Audio Tools & Tagging](https://img.shields.io/badge/Audio%20Tools%20%26%20Tagging-32cd32)
 
 | App | Purpose |
 | --- | --- |
@@ -141,9 +141,9 @@ scoop install unyo
 | [vgmstream-cli](https://vgmstream.org) | Decodes hundreds of video game audio formats |
 | [wrtag](https://github.com/sentriz/wrtag) | Fast automated music tagging and organization |
 
-### [![Gaming & Modding](https://img.shields.io/badge/Gaming%20%26%20Modding-00695c)
+### ![Gaming & Modding](https://img.shields.io/badge/Gaming%20%26%20Modding-00695c)
 
-#### [![Storefronts & Launchers](https://img.shields.io/badge/Storefronts%20%26%20Launchers-00695c)
+#### ![Storefronts & Launchers](https://img.shields.io/badge/Storefronts%20%26%20Launchers-00695c)
 
 | App | Purpose |
 | --- | --- |
@@ -154,7 +154,7 @@ scoop install unyo
 | [legendary](https://github.com/derrod/legendary) | Open-source Epic Games CLI launcher |
 | [rare](https://github.com/RareDevs/Rare) | Graphical frontend for legendary (Epic Games store) |
 
-#### [![Steam Tools](https://img.shields.io/badge/Steam%20Tools-00695c)
+#### ![Steam Tools](https://img.shields.io/badge/Steam%20Tools-00695c)
 
 | App | Purpose |
 | --- | --- |
@@ -166,7 +166,7 @@ scoop install unyo
 | [steam-tools-ng](https://github.com/calendulish/steam-tools-ng) | Useful tools for Steam clients (achievements, DLC, licenses, etc.) |
 | [steascree](https://steascree.download/) | Universal Steam screenshots manager with download and conversion |
 
-#### [![Modding & Game Tools](https://img.shields.io/badge/Modding%20%26%20Game%20Tools-00695c)
+#### ![Modding & Game Tools](https://img.shields.io/badge/Modding%20%26%20Game%20Tools-00695c)
 
 | App | Purpose |
 | --- | --- |
@@ -180,7 +180,7 @@ scoop install unyo
 | [undertalemodtool-cli](https://github.com/UnderminersTeam/UndertaleModTool) | CLI version of UndertaleModTool |
 | [viaproxy](https://github.com/ViaVersion/ViaProxy) | Proxy that lets any client join online Minecraft servers |
 
-#### [![Minecraft](https://img.shields.io/badge/Minecraft-00695c)
+#### ![Minecraft](https://img.shields.io/badge/Minecraft-00695c)
 
 | App | Purpose |
 | --- | --- |
@@ -197,9 +197,9 @@ scoop install unyo
 | [plain-craft-launcher](https://github.com/Hex-Dragon/PCL2) | Feature-packed Minecraft launcher with world management |
 | [s2cb](https://github.com/TroZ/s2cb) | Converts Minecraft schematics into command blocks |
 
-### [![Emulation & Homebrew](https://img.shields.io/badge/Emulation%20%26%20Homebrew-5d4037)
+### ![Emulation & Homebrew](https://img.shields.io/badge/Emulation%20%26%20Homebrew-5d4037)
 
-#### [![Emulators](https://img.shields.io/badge/Emulators-5d4037)
+#### ![Emulators](https://img.shields.io/badge/Emulators-5d4037)
 
 | App | Purpose |
 | --- | --- |
@@ -211,7 +211,7 @@ scoop install unyo
 | [winuae](https://www.winuae.net/) | Amiga emulator for Windows |
 | [yabasanshiro](https://www.yabasanshiro.com/) | Sega Saturn emulator (Yaba Sanshiro) |
 
-#### [![Console Homebrew Tools](https://img.shields.io/badge/Console%20Homebrew%20Tools-5d4037)
+#### ![Console Homebrew Tools](https://img.shields.io/badge/Console%20Homebrew%20Tools-5d4037)
 
 | App | Purpose |
 | --- | --- |
@@ -222,7 +222,7 @@ scoop install unyo
 | [ns-emu-tools](https://github.com/triwinds/ns-emu-tools) | Tools for Nintendo Switch emulation |
 | [nstool](https://github.com/jakcron/nstool) | General-purpose read/extract tool for Nintendo Switch files |
 
-### [![Media Players & Servers](https://img.shields.io/badge/Media%20Players%20%26%20Servers-00838f)
+### ![Media Players & Servers](https://img.shields.io/badge/Media%20Players%20%26%20Servers-00838f)
 
 | App | Purpose |
 | --- | --- |
@@ -237,7 +237,7 @@ scoop install unyo
 | [switchfin](https://github.com/dragonflylee/switchfin) | Third-party Windows player for Jellyfin |
 | [terminus-player](https://github.com/Terminus-Media/jellyfin-media-player) | Free media player for Emby and Jellyfin |
 
-### [![Subtitles](https://img.shields.io/badge/Subtitles-c62828)
+### ![Subtitles](https://img.shields.io/badge/Subtitles-c62828)
 
 | App | Purpose |
 | --- | --- |
@@ -247,9 +247,9 @@ scoop install unyo
 | [subtitles-database](https://github.com/foxofice/sub_share) | Search, share and download subtitles |
 | [whispersubtranslate](https://github.com/Blue-B/WhisperSubTranslate) | Extracts subtitles from videos with Whisper and translates them |
 
-### [![Downloaders & Automation](https://img.shields.io/badge/Downloaders%20%26%20Automation-ff4500)
+### ![Downloaders & Automation](https://img.shields.io/badge/Downloaders%20%26%20Automation-ff4500)
 
-#### [![Manga & Novels](https://img.shields.io/badge/Manga%20%26%20Novels-ff4500)
+#### ![Manga & Novels](https://img.shields.io/badge/Manga%20%26%20Novels-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -260,7 +260,7 @@ scoop install unyo
 | [picacomic-downloader](https://github.com/lanyeeee/picacomic-downloader) | Manga downloader for Picacomic |
 | [wnacg-downloader](https://github.com/lanyeeee/wnacg-downloader) | Manga downloader for Wnacg |
 
-#### [![Fan Content & Media](https://img.shields.io/badge/Fan%20Content%20%26%20Media-ff4500)
+#### ![Fan Content & Media](https://img.shields.io/badge/Fan%20Content%20%26%20Media-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -268,7 +268,7 @@ scoop install unyo
 | [BililiveRecorder](https://github.com/Bililive/BililiveRecorder) | Bilibili live stream recording tool |
 | [kemono-downloader](https://github.com/Yuvi9587/Kemono-Downloader) | GUI downloader for Kemono, Coomer, Bunkr, Erome, and nhentai |
 
-#### [![Torrent Automation](https://img.shields.io/badge/Torrent%20Automation-ff4500)
+#### ![Torrent Automation](https://img.shields.io/badge/Torrent%20Automation-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -276,7 +276,7 @@ scoop install unyo
 | [nyaa](https://github.com/Beastwick18/nyaa) | TUI for browsing and downloading torrents from nyaa.si |
 | [qui](https://github.com/autobrr/qui) | Modern alternative webUI for qBittorrent with multi-instance support |
 
-#### [![Stream Downloaders](https://img.shields.io/badge/Stream%20Downloaders-ff4500)
+#### ![Stream Downloaders](https://img.shields.io/badge/Stream%20Downloaders-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -286,7 +286,7 @@ scoop install unyo
 | [twitch-hls-client](https://github.com/2bc4/twitch-hls-client) | CLI for watching and recording Twitch streams |
 | [vget](https://vget.io) | Versatile CLI toolkit for downloading audio and video |
 
-### [![Utilities & Misc](https://img.shields.io/badge/Utilities%20%26%20Misc-708090)
+### ![Utilities & Misc](https://img.shields.io/badge/Utilities%20%26%20Misc-708090)
 
 | App | Purpose |
 | --- | --- |
@@ -300,7 +300,7 @@ scoop install unyo
 | [SteamTokenDumper](https://steamdb.info/tokendumper/) | Submits users PICS access tokens to SteamDB |
 | [Twitch-Channel-Points-Miner](https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2) | Watches streams and earns Twitch channel points automatically [^5] |
 
-### [![Retro & Geeky Hobbies](https://img.shields.io/badge/Retro%20%26%20Geeky%20Hobbies-424242)
+### ![Retro & Geeky Hobbies](https://img.shields.io/badge/Retro%20%26%20Geeky%20Hobbies-424242)
 
 | App | Purpose |
 | --- | --- |
