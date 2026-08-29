@@ -22,9 +22,9 @@ scoop install unyo
 
 > Click here to [browse the list on scoop instead](https://scoop.sh/#/apps?q="https://github.com/PrantoSMSS/weeboop"&o=false)
 
-### Anime & Manga
+### ðŸ¥ Anime & Manga
 
-#### Streaming & Players
+#### ðŸ¥ Streaming & Players
 
 | App | Purpose |
 | --- | --- |
@@ -41,7 +41,7 @@ scoop install unyo
 | [Unyo](https://github.com/K3vinb5/unyo-app) | Ad-free desktop app for streaming anime and reading manga, synced with AniList |
 | [zenshin](https://github.com/hitarth-gg/zenshin) | Web & Electron based anime streaming app |
 
-#### Tracking, Cataloging & Renaming
+#### ðŸ¥ Tracking, Cataloging & Renaming
 
 | App | Purpose |
 | --- | --- |
@@ -49,9 +49,9 @@ scoop install unyo
 | [bangumi-renamer](https://github.com/nuthx/bangumi-renamer) | Batch-renames anime files using AniList or Bangumi metadata |
 | [ShokoServer](https://github.com/ShokoAnime/ShokoServer) | Anime cataloging program that automates cataloging your anime collection |
 
-### Manga & Comics
+### ðŸ“š Manga & Comics
 
-#### Readers
+#### ðŸ“š Readers
 
 | App | Purpose |
 | --- | --- |
@@ -62,35 +62,35 @@ scoop install unyo
 | [Suwayomi-VaadinUI](https://github.com/Suwayomi/Suwayomi-VaadinUI) | Desktop client for Suwayomi-Server built with Java and Vaadin [^2] |
 | [SyncYomi](https://github.com/syncyomi/syncyomi) | Seamlessly synchronizes TachiyomiSY/Mihon manga progress and library across devices |
 
-#### Tools & Conversion
+#### ðŸ“š Tools & Conversion
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-manga-watermark-remover](https://github.com/lanyeeee/bilibili-manga-watermark-remover) | Removes watermarks from Bilibili manga images |
 | [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) | GUI for upscaling manga with PyTorch models |
 
-### Visual Novel & Text Hooking
+### ðŸŽ® Visual Novel & Text Hooking
 
 | App | Purpose |
 | --- | --- |
 | [Textractor](https://github.com/Artikash/Textractor) | X86/x64 video game and visual novel text hooker, highly extensible with translation extensions [^3] |
 
-### Language & Dictionaries
+### ðŸ“– Language & Dictionaries
 
 | App | Purpose |
 | --- | --- |
 | [meikipop](https://github.com/rtr46/meikipop) | Universal Japanese OCR popup dictionary for instant on-screen lookups [^4] |
 
-### Voice & Music Synthesis
+### ðŸŽ¤ Voice & Music Synthesis
 
 | App | Purpose |
 | --- | --- |
 | [Audacity (legacy 2.4.1)](https://www.audacityteam.org) | Free, open-source, cross-platform audio software for multi-track recording and editing |
 | [Vogen](https://github.com/aqtq314/Vogen.Client) | Free Cantonese singing voice synthesizer with a piano-roll editor |
 
-### Downloaders & Automation
+### ðŸ“¥ Downloaders & Automation
 
-#### Manga & Novels
+#### ðŸ“¥ Manga & Novels
 
 | App | Purpose |
 | --- | --- |
@@ -101,14 +101,14 @@ scoop install unyo
 | [picacomic-downloader](https://github.com/lanyeeee/picacomic-downloader) | Manga downloader for Picacomic |
 | [wnacg-downloader](https://github.com/lanyeeee/wnacg-downloader) | Manga downloader for Wnacg |
 
-#### Fan Content & Media
+#### ðŸ“¥ Fan Content & Media
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-live-record-downloader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) | Bilibili live recording and replay downloading software |
 | [kemono-downloader](https://github.com/Yuvi9587/Kemono-Downloader) | GUI downloader for Kemono, Coomer, Bunkr, Erome, and nhentai |
 
-#### Torrent Automation
+#### ðŸ“¥ Torrent Automation
 
 | App | Purpose |
 | --- | --- |
@@ -116,7 +116,7 @@ scoop install unyo
 | [nyaa](https://github.com/Beastwick18/nyaa) | TUI for browsing and downloading torrents from nyaa.si |
 | [qui](https://github.com/autobrr/qui) | Modern alternative webUI for qBittorrent with multi-instance support |
 
-### Utilities & Misc
+### ðŸ§° Utilities & Misc
 
 | App | Purpose |
 | --- | --- |
