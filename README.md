@@ -26,12 +26,10 @@ scoop install unyo
 
 | App | Purpose |
 | --- | --- |
-| [animeko ⭐](https://myani.org/) | Anime streaming app with library and progress syncing (non-portable) [^7] |
 | [AnymeX ⭐](https://github.com/RyanYuuki/AnymeX) | Open-source tracker for multiple services (AL, MAL, SIMKL) |
 | [DanDanPlay ⭐](https://www.dandanplay.com/) | Bangumi player with danmaku support |
 | [GoAnime ⭐](https://github.com/alvarorichard/GoAnime) | CLI tool to browse, play, and download anime |
 | [Hayase ⭐](https://hayase.watch/) | Torrent streaming made simple; watch anime torrents in real time [^1] |
-| [Kazumi ⭐](https://kazumi.app) | Anime streaming app |
 | [Mangayomi ⭐](https://github.com/kodjodevf/mangayomi) | Free and open-source app for reading manga, novels, and watching anime |
 | [Seanime ⭐](https://seanime.app) | Media server with a web interface and desktop app for watching anime, managing your local library, and reading manga |
 | [Shiru ⭐](https://github.com/rockinchaos/shiru) | Stream anime torrents, real-time with no waiting for downloads |
@@ -200,8 +198,10 @@ scoop install unyo
 
 | App | Purpose |
 | --- | --- |
+| [animeko ⭐](https://myani.org/) | Anime streaming app with library and progress syncing (non-portable) [^7] |
 | [BililiveRecorder ⭐](https://github.com/Bililive/BililiveRecorder) | Bilibili live stream recording tool |
 | [chinesesubfinder ⭐](https://github.com/allanpk716/ChineseSubFinder) | Auto-search and download Chinese subtitles |
+| [Kazumi ⭐](https://kazumi.app) | Anime streaming app |
 | [bilibili](https://www.bilibili.com) | Official Bilibili Windows client |
 | [bilibili-live-record-downloader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) | Bilibili live recording and replay downloading software |
 | [bilibili-manga-watermark-remover](https://github.com/lanyeeee/bilibili-manga-watermark-remover) | Removes watermarks from Bilibili manga images |
