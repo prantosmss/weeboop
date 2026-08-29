@@ -1,6 +1,6 @@
 # weeboop [![Tests](https://github.com/PrantoSMSS/weeboop/actions/workflows/ci.yml/badge.svg)](https://github.com/PrantoSMSS/weeboop/actions/workflows/ci.yml) [![Excavator](https://github.com/PrantoSMSS/weeboop/actions/workflows/excavator.yml/badge.svg)](https://github.com/PrantoSMSS/weeboop/actions/workflows/excavator.yml)
 
-A [Scoop](https://scoop.sh) bucket focused on accumulating all the weeb and otaku based applications. It is a fork of [Rinkerbel/scooped](https://github.com/Rinkerbel/scooped).
+A [Scoop](https://scoop.sh) bucket focused on accumulating all the weeb, otaku, geek and nerd based applications. It is a fork of [Rinkerbel/scooped](https://github.com/Rinkerbel/scooped).
 
 ## Usage
 
@@ -30,6 +30,8 @@ scoop install unyo
 | --- | --- |
 | [AnimeFlow](https://github.com/openAnimeFlow/AnimeFlow) | Anime player and aggregator with Bangumi integration and upscaling |
 | [animeko](https://myani.org/) | Anime streaming app with library and progress syncing (non-portable) [^7] |
+| [bilibili](https://www.bilibili.com) | Official Bilibili Windows client |
+| [DanDanPlay](https://www.dandanplay.com/) | Bangumi player with danmaku support |
 | [GoAnime](https://github.com/alvarorichard/GoAnime) | CLI tool to browse, play, and download anime |
 | [Hayase](https://github.com/hayase-app/ui) | Torrent streaming made simple; watch anime torrents in real time [^1] |
 | [Kazumi](https://kazumi.app) | Anime streaming app |
@@ -106,7 +108,9 @@ scoop install unyo
 | App | Purpose |
 | --- | --- |
 | [bilibili-live-record-downloader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) | Bilibili live recording and replay downloading software |
+| [BililiveRecorder](https://github.com/Bililive/BililiveRecorder) | Bilibili live stream recording tool |
 | [kemono-downloader](https://github.com/Yuvi9587/Kemono-Downloader) | GUI downloader for Kemono, Coomer, Bunkr, Erome, and nhentai |
+| [N_m3u8DL-CLI](https://nilaoda.github.io/N_m3u8DL-CLI/) | Downloads m3u8/m3u HLS streams and merges them into video files |
 
 #### ![Torrent Automation](https://img.shields.io/badge/Torrent%20Automation-ff4500)
 
@@ -121,6 +125,7 @@ scoop install unyo
 | App | Purpose |
 | --- | --- |
 | [anime4kcpp-gui](https://github.com/TianZerL/Anime4KCPP) | High performance anime upscaler GUI |
+| [ChineseSubtitleConversionTool](https://github.com/xiaoxinpro/ChineseSubtitleConversionTool) | Converts Chinese subtitles between Simplified and Traditional |
 | [danmakufactory](https://github.com/hihkm/DanmakuFactory) | Converts comments into danmaku subtitle files for video players |
 | [LuaTools](https://lua.tools) | AppID manager for ST [^6] |
 | [ShareX-HDR](https://github.com/GotoFinal/ShareX-HDR) | Fork of ShareX with basic HDR support |
