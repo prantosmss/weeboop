@@ -1,0 +1,34 @@
+{
+    "version": "0.6.0-beta",
+    "description": "A modern and powerful stream downloader for MPD/M3U8/ISM.",
+    "homepage": "https://github.com/nilaoda/N_m3u8DL-RE",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.6.0-beta/N_m3u8DL-RE_v0.6.0-beta_win-x64_20260629.zip",
+            "hash": "3825fd42ee502f98a9378f6fdddb2f7822709f521806214f466db6935c950f1a"
+        },
+        "arm64": {
+            "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v0.6.0-beta/N_m3u8DL-RE_v0.6.0-beta_win-arm64_20260629.zip",
+            "hash": "3a13527812a5f18b9981b3cd6f7f36bd17cd7d76b5f3273281a58354e5fcebd6"
+        }
+    },
+    "bin": "N_m3u8DL-RE.exe",
+    "suggest": {
+        "ffmpeg": "ffmpeg"
+    },
+    "checkver": {
+        "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/latest",
+        "regex": "N_m3u8DL-RE_v(.+?)_win-x64_(?<date>\\d+).zip"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version/N_m3u8DL-RE_v$version_win-x64_$matchDate.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/nilaoda/N_m3u8DL-RE/releases/download/v$version/N_m3u8DL-RE_v$version_win-arm64_$matchDate.zip"
+            }
+        }
+    }
+}

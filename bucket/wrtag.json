@@ -1,0 +1,35 @@
+{
+    "version": "0.34.0",
+    "description": "A fast automated music tagging and organization tool based on MusicBrainz.",
+    "homepage": "https://github.com/sentriz/wrtag",
+    "license": "GPL-3.0-only",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/sentriz/wrtag/releases/download/v0.34.0/wrtag-windows-amd64-v0.34.0.exe#/wrtag.exe",
+            "hash": "334ed11449dae4d4f82b41bc83cd39164b6c26a076e1f9c21f7b9dc555786bb0"
+        },
+        "32bit": {
+            "url": "https://github.com/sentriz/wrtag/releases/download/v0.34.0/wrtag-windows-386-v0.34.0.exe#/wrtag.exe",
+            "hash": "f0522f4dc52041e34d36aebdb7cb968c4f3aff250bd67fb9422c79f1ef6f3bc0"
+        },
+        "arm64": {
+            "url": "https://github.com/sentriz/wrtag/releases/download/v0.34.0/wrtag-windows-arm64-v0.34.0.exe#/wrtag.exe",
+            "hash": "bcfebffb3016334279c5197cfc27a70354cb7e703e0a8afe19e25d08e4cce6c2"
+        }
+    },
+    "bin": "wrtag.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/sentriz/wrtag/releases/download/v$version/wrtag-windows-amd64-v$version.exe#/wrtag.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/sentriz/wrtag/releases/download/v$version/wrtag-windows-386-v$version.exe#/wrtag.exe"
+            },
+            "arm64": {
+                "url": "https://github.com/sentriz/wrtag/releases/download/v$version/wrtag-windows-arm64-v$version.exe#/wrtag.exe"
+            }
+        }
+    }
+}
