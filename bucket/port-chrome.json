@@ -1,102 +1,37 @@
 {
     "version": "151.0.7922.72",
-    "description": "Portable Google Chrome — profile and cache live inside the Scoop persist folder instead of %LOCALAPPDATA%, so it can be moved or fully removed without touching the rest of the system.",
+    "description": "Portable Google Chrome; profile and cache stored in the Scoop persist folder instead of %LOCALAPPDATA%",
     "homepage": "https://www.google.com/chrome/",
-    "license": {
-        "identifier": "Freeware",
-        "url": "https://www.google.com/chrome/terms/"
-    },
-    "notes": [
-        "Profile data lives in the persist folder (scoop\\persist\\port-chrome\\data) so it survives updates.",
-        "Run 'scoop uninstall port-chrome -p' to also delete the persisted profile; a plain uninstall keeps it."
-    ],
+    "license": "Freeware",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/acyg5hsdibqz5q3gdzxg6vvvix6a_151.0.7922.72/151.0.7922.72_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "1b3bb64a7bc0e4dfef6ea74505a19769f570db2fce891e229d4f64c292d0bce7"
-        },
-        "32bit": {
-            "url": "https://dl.google.com/release2/chrome/ackdlhiguwycvdcjuhpd6aqcui4q_151.0.7922.72/151.0.7922.72_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "345dad102acfce502a209a6652a74cbc3942f635d0aeda48d05ebd3b512c974d"
-        },
-        "arm64": {
-            "url": "https://dl.google.com/release2/chrome/acopqzppadwttfbq2ypbs5rpmviq_151.0.7922.72/151.0.7922.72_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "b640a24b082cf5e0f9ce0decbdb40ae88f3a99cdc5a5ea4c1ea9b7b1ea3224d5"
+            "url": "https://storage.googleapis.com/chrome-for-testing-public/151.0.7922.72/win64/chrome-installer.exe",
+            "hash": "FA4151F780C0E6F704DBA7FDD7F539FC4B4515282F5C32C68516A4B945994E1A"
         }
     },
     "extract_dir": "Chrome-bin",
+    "bin": [
+        [
+            "chrome.exe",
+            "port-chrome",
+            "--user-data-dir=$dir\\data"
+        ]
+    ],
     "persist": [
         "data"
     ],
-    "post_install": [
-        "$launcher = Join-Path $dir 'port-chrome.cmd'",
-        "$lines = @(",
-        "    '@echo off',",
-        "    'start \"\" \"%~dp0chrome.exe\" --user-data-dir=\"%~dp0data\" %*'",
-        ")",
-        "Set-Content -Path $launcher -Value $lines -Encoding ASCII -Force"
-    ],
-    "bin": [
-        [
-            "port-chrome.cmd",
-            "port-chrome"
-        ]
-    ],
     "shortcuts": [
         [
-            "port-chrome.cmd",
-            "Portable Chrome",
-            "",
-            "chrome.exe"
+            "chrome.exe",
+            "Portable Google Chrome",
+            "--user-data-dir=$dir\\data"
         ]
     ],
-    "env_set": {
-        "CHROME_EXECUTABLE": "$dir\\chrome.exe"
-    },
-    "checkver": {
-        "script": [
-            "$AppID = '{8A69D345-D564-463C-AFF1-A69D9E530F96}'",
-            "$ArchParams = @{",
-            "    'x64' ='x64-stable'",
-            "    'x86' ='x86-stable'",
-            "    'arm64' ='arm64-stable'",
-            "}",
-            "$BodyTemplate = @(",
-            "    '<?xml version=\"1.0\" encoding=\"utf-8\"?>',",
-            "    '<request protocol=\"3.0\">',",
-            "    '  <os platform=\"win\" version=\"10.0.22000\" arch=\"{0}\"/>',",
-            "    '  <app appid=\"{1}\" ap=\"{2}\" version=\"\">',",
-            "    '    <updatecheck/>',",
-            "    '  </app>',",
-            "    '</request>'",
-            ") -join \"`n\"",
-            "$ArchURLs = @{}",
-            "$Version = $null",
-            "forEach ($Arch in $ArchParams.Keys) {",
-            "    $Body = $BodyTemplate -f $Arch, $AppID, $ArchParams[$Arch]",
-            "    $Response = Invoke-RestMethod -Uri 'https://update.googleapis.com/service/update2' -Method Post -Body $Body",
-            "    if ($Arch -eq 'x64') {",
-            "        $Version = $Response.response.app.updatecheck.manifest.version",
-            "    }",
-            "    $BaseURL = $Response.SelectSingleNode(\"//url[starts-with(@codebase, 'https://dl.google.com/release2/chrome/')]\")",
-            "    $BaseURL.GetAttribute('codebase') -match '^https://dl\\.google\\.com/release2/chrome/(?<URL>[^/]+)/'",
-            "    $FileName = $Response.SelectSingleNode('//package').GetAttribute('name')",
-            "    $ArchURLs[$Arch] = \"$($Matches['URL'])/$FileName\"",
-            "}",
-            "Write-Output \"$Version,$($ArchURLs['x64']),$($ArchURLs['x86']),$($ArchURLs['arm64'])\""
-        ],
-        "regex": "(?<version>[\\d.]+),(?<archx64>[^,]+),(?<archx86>[^,]+),(?<archarm64>[^,]+)"
-    },
+    "checkver": "chrome-for-testing",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://dl.google.com/release2/chrome/$matchArchx64#/dl.7z"
-            },
-            "32bit": {
-                "url": "https://dl.google.com/release2/chrome/$matchArchx86#/dl.7z"
-            },
-            "arm64": {
-                "url": "https://dl.google.com/release2/chrome/$matchArcharm64#/dl.7z"
+                "url": "https://storage.googleapis.com/chrome-for-testing-public/$version/win64/chrome-installer.exe"
             }
         }
     }
