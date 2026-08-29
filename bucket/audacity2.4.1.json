@@ -9,6 +9,6 @@
     "innosetup": true,
     "bin": "audacity.exe",
     "shortcuts": [
-        [ "audacity.exe", "Audacity 2.4.1" ]
+        [ "audacity.exe", "Audacity" ]
     ]
 }
