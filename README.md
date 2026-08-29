@@ -22,9 +22,9 @@ scoop install unyo
 
 > Click here to [browse the list on scoop instead](https://scoop.sh/#/apps?q="https://github.com/PrantoSMSS/weeboop"&o=false)
 
-### ðŸ¥ Anime & Manga
+### ![Anime & Manga](https://img.shields.io/badge/Anime%20%26%20Manga-ff69b4)
 
-#### ðŸ¥ Streaming & Players
+#### ![Streaming & Players](https://img.shields.io/badge/Streaming%20%26%20Players-ff69b4)
 
 | App | Purpose |
 | --- | --- |
@@ -41,7 +41,7 @@ scoop install unyo
 | [Unyo](https://github.com/K3vinb5/unyo-app) | Ad-free desktop app for streaming anime and reading manga, synced with AniList |
 | [zenshin](https://github.com/hitarth-gg/zenshin) | Web & Electron based anime streaming app |
 
-#### ðŸ¥ Tracking, Cataloging & Renaming
+#### ![Tracking, Cataloging & Renaming](https://img.shields.io/badge/Tracking%2C%20Cataloging%20%26%20Renaming-ff69b4)
 
 | App | Purpose |
 | --- | --- |
@@ -49,9 +49,9 @@ scoop install unyo
 | [bangumi-renamer](https://github.com/nuthx/bangumi-renamer) | Batch-renames anime files using AniList or Bangumi metadata |
 | [ShokoServer](https://github.com/ShokoAnime/ShokoServer) | Anime cataloging program that automates cataloging your anime collection |
 
-### ðŸ“š Manga & Comics
+### ![Manga & Comics](https://img.shields.io/badge/Manga%20%26%20Comics-ff8c00)
 
-#### ðŸ“š Readers
+#### ![Readers](https://img.shields.io/badge/Readers-ff8c00)
 
 | App | Purpose |
 | --- | --- |
@@ -62,35 +62,35 @@ scoop install unyo
 | [Suwayomi-VaadinUI](https://github.com/Suwayomi/Suwayomi-VaadinUI) | Desktop client for Suwayomi-Server built with Java and Vaadin [^2] |
 | [SyncYomi](https://github.com/syncyomi/syncyomi) | Seamlessly synchronizes TachiyomiSY/Mihon manga progress and library across devices |
 
-#### ðŸ“š Tools & Conversion
+#### ![Tools & Conversion](https://img.shields.io/badge/Tools%20%26%20Conversion-ff8c00)
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-manga-watermark-remover](https://github.com/lanyeeee/bilibili-manga-watermark-remover) | Removes watermarks from Bilibili manga images |
 | [MangaJaNaiConverterGui](https://github.com/the-database/MangaJaNaiConverterGui) | GUI for upscaling manga with PyTorch models |
 
-### ðŸŽ® Visual Novel & Text Hooking
+### ![Visual Novel & Text Hooking](https://img.shields.io/badge/Visual%20Novel%20%26%20Text%20Hooking-9400d3)
 
 | App | Purpose |
 | --- | --- |
 | [Textractor](https://github.com/Artikash/Textractor) | X86/x64 video game and visual novel text hooker, highly extensible with translation extensions [^3] |
 
-### ðŸ“– Language & Dictionaries
+### ![Language & Dictionaries](https://img.shields.io/badge/Language%20%26%20Dictionaries-1e90ff)
 
 | App | Purpose |
 | --- | --- |
 | [meikipop](https://github.com/rtr46/meikipop) | Universal Japanese OCR popup dictionary for instant on-screen lookups [^4] |
 
-### ðŸŽ¤ Voice & Music Synthesis
+### ![Voice & Music Synthesis](https://img.shields.io/badge/Voice%20%26%20Music%20Synthesis-32cd32)
 
 | App | Purpose |
 | --- | --- |
 | [Audacity (legacy 2.4.1)](https://www.audacityteam.org) | Free, open-source, cross-platform audio software for multi-track recording and editing |
 | [Vogen](https://github.com/aqtq314/Vogen.Client) | Free Cantonese singing voice synthesizer with a piano-roll editor |
 
-### ðŸ“¥ Downloaders & Automation
+### ![Downloaders & Automation](https://img.shields.io/badge/Downloaders%20%26%20Automation-ff4500)
 
-#### ðŸ“¥ Manga & Novels
+#### ![Manga & Novels](https://img.shields.io/badge/Manga%20%26%20Novels-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -101,14 +101,14 @@ scoop install unyo
 | [picacomic-downloader](https://github.com/lanyeeee/picacomic-downloader) | Manga downloader for Picacomic |
 | [wnacg-downloader](https://github.com/lanyeeee/wnacg-downloader) | Manga downloader for Wnacg |
 
-#### ðŸ“¥ Fan Content & Media
+#### ![Fan Content & Media](https://img.shields.io/badge/Fan%20Content%20%26%20Media-ff4500)
 
 | App | Purpose |
 | --- | --- |
 | [bilibili-live-record-downloader](https://github.com/HMBSbige/BilibiliLiveRecordDownLoader) | Bilibili live recording and replay downloading software |
 | [kemono-downloader](https://github.com/Yuvi9587/Kemono-Downloader) | GUI downloader for Kemono, Coomer, Bunkr, Erome, and nhentai |
 
-#### ðŸ“¥ Torrent Automation
+#### ![Torrent Automation](https://img.shields.io/badge/Torrent%20Automation-ff4500)
 
 | App | Purpose |
 | --- | --- |
@@ -116,7 +116,7 @@ scoop install unyo
 | [nyaa](https://github.com/Beastwick18/nyaa) | TUI for browsing and downloading torrents from nyaa.si |
 | [qui](https://github.com/autobrr/qui) | Modern alternative webUI for qBittorrent with multi-instance support |
 
-### ðŸ§° Utilities & Misc
+### ![Utilities & Misc](https://img.shields.io/badge/Utilities%20%26%20Misc-708090)
 
 | App | Purpose |
 | --- | --- |
