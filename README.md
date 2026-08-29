@@ -69,5 +69,5 @@ Once this is done, you can install any app from this bucket.\
 For instance, use the following command:
 
 ```powershell
-scoop install seanime-server
+scoop install unyo
 ```
