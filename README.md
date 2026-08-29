@@ -229,6 +229,7 @@ scoop install unyo
 | [danmakufactory ⭐](https://github.com/hihkm/DanmakuFactory) | Converts comments into danmaku subtitle files for video players |
 | [ShareX-HDR ⭐](https://github.com/GotoFinal/ShareX-HDR) | Fork of ShareX with basic HDR support |
 | [anime4kcpp-cli](https://github.com/TianZerL/Anime4KCPP) | CLI version of the Anime4K anime upscaler |
+| [port-chrome](https://www.google.com/chrome/) | Portable Google Chrome; profile and cache stored in the Scoop persist folder instead of %LOCALAPPDATA% |
 | [shelter-installer](https://shelter.uwu.network) | Installer for the shelter client mod for Discord |
 | [Twitch-Channel-Points-Miner](https://github.com/rdavydov/Twitch-Channel-Points-Miner-v2) | Watches streams and earns Twitch channel points automatically [^5] |
 
