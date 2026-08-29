@@ -9,6 +9,7 @@ A [Scoop](https://scoop.sh) bucket focused on accumulating all the weeb and otak
 ### Anime & Manga
 
 - [Seanime](https://github.com/5rahim/seanime)
+- [Shiru](https://github.com/RockinChaos/Shiru)
 - [Hayase](https://github.com/hayase-app/ui) [^1]
 - [zenshin](https://github.com/hitarth-gg/zenshin)
 - [Totoro](https://github.com/insomniachi/Totoro)
