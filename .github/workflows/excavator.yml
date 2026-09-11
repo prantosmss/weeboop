@@ -15,5 +15,6 @@ jobs:
       - name: Excavate
         uses: ScoopInstaller/GithubActions@main
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_TOKEN }}
+          USER_EMAIAL: "pranto.smss.dev@gmail.com"
           SKIP_UPDATED: 1
