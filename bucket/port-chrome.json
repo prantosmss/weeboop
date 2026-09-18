@@ -1,5 +1,5 @@
 {
-    "version": "153.0.8010.37",
+    "version": "153.0.8010.53",
     "description": "Portable Google Chrome — profile and cache live inside the Scoop persist folder instead of %LOCALAPPDATA%, so it can be moved or fully removed without touching the rest of the system.",
     "homepage": "https://www.google.com/chrome/",
     "license": {
@@ -12,16 +12,16 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/release2/chrome/gk2npvnuh46nt66cymep6yi5qq_153.0.8010.37/153.0.8010.37_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "cc15919515a27a04e8fd8807bb3c1e7a2f3ae5bc6df2f0a7980aa83ebb9fd3b9"
+            "url": "https://dl.google.com/release2/chrome/adly7pfossl6tgaehaym5fxcveia_153.0.8010.53/153.0.8010.53_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "084367bacc45625bd759b1907dda7f42a41b1f32f0ef72b9addc30cf19f8d928"
         },
         "32bit": {
-            "url": "https://dl.google.com/release2/chrome/f5s6pjadfdjpng76h23inulorq_153.0.8010.37/153.0.8010.37_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "ac0a2b15c0b67220b5e0baa960c240510833b4bdd99eced6e3012677acc95e14"
+            "url": "https://dl.google.com/release2/chrome/mwsb7ujkzo2mhag4h5lk2g65cu_153.0.8010.53/153.0.8010.53_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "436e9aee4a4d26d561ee143df9976b3b80197c72f50ce342ec27321f1a4d35ff"
         },
         "arm64": {
-            "url": "https://dl.google.com/release2/chrome/itljh7oe26tq4aojmitfz23e5y_153.0.8010.37/153.0.8010.37_chrome_installer_uncompressed.exe#/dl.7z",
-            "hash": "19d7113d92c9430f65902ad54b15d131f2d868d9356959806b3994bfbe0ab909"
+            "url": "https://dl.google.com/release2/chrome/acvzxwx4z7x2u2uyn7pyl5kbjpcq_153.0.8010.53/153.0.8010.53_chrome_installer_uncompressed.exe#/dl.7z",
+            "hash": "72af61fb5ed65d06677a670e3c61c6e3805c8083f167c6aae30f5fd02f92acf9"
         }
     },
     "extract_dir": "Chrome-bin",
