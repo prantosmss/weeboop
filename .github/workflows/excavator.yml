@@ -16,5 +16,6 @@ jobs:
         uses: ScoopInstaller/GithubActions@main
         env:
           GITHUB_TOKEN: ${{ secrets.MY_PERSONAL_TOKEN }}
-          USER_EMAIAL: "pranto.smss.dev@gmail.com"
+          USER_NAME: "Sadik Pranto"
+          USER_EMAIL: "pranto.smss.dev@gmail.com"
           SKIP_UPDATED: 1
